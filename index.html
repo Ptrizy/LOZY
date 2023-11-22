@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lozy</title>
+    <link rel="stylesheet" href="res/css/style.css" />
+    <link rel="stylesheet" href="res/css/header-footer.css" />
+    <link rel="stylesheet" href="res/css/home.css">
+    <
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <a href="./index.html" class="logo"></a>
+      <img src="res/assets/logo.png" alt="Lozy Logo" width="170" height="61.31" />
+      <a href="./index.html" class="logonew"></a>
+      <img src="res/assets/logo.png" alt="Lozy Logo" width="0" height="0" />
+      <div class="toggle" onclick="toggleMenu();"></div>
+
+      <ul class="menu">
+        <li><a href="./index.html" onclick="toggleMenu()">Beranda</a></li>
+        <li><a href="./pages/outlet.html" onclick="toggleMenu()">Toko</a></li>
+        <li><a href="./pages/outlet.html" onclick="toggleMenu()">Pesanan</a></li>
+        <li><a href="./pages/chat.html" onclick="toggleMenu()">Chat</a></li>
+        <li><a href="./index.html" onclick="toggleMenu()">Profil</a></li>
+      </ul>
+    </nav>
+
+    <!-- Beranda -->
+    <section id="beranda">
+        <div class="hero">
+            <img src="res/assets/hero-img.png" alt="Hero Img">
+            <div class="hero-container">
+              <h1>Selamat datang di LOZY</h1>
+              <button class="button">Gabung</button>
+              <button class="button">Masuk</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Laundry Terdekat -->
+    <section id="laundry-terdekat">
+      <div class="laundry-container">
+        <div class="teks-lt">
+        <h2>Laundry Terdekat</h2>
+        <h2 class="lainnya">Lainnya</h2>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 0.5; /* Opacity setengah */
+  object-position: center left;
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: #0f172a;
+}
+
+.hero-container h1 {
+  font-size: 43px;
+}
+
+.button {
+  font-weight: 600;
+  border-radius: 14px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px 35px;
+  border: 3px solid #53a1f9;
+  color: #086cdd;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.button:hover {
+  border: 0px;
+  background-color: #84bcfb;
+  color: #f8fafc;
+}
+
+#beranda {
+  padding: 0px;
+}
+
+section {
+  padding: 70px 100px;
+}
+
+.teks-lt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teks-lt h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #0f172a;
+}
+ 
+.teks-lt .lainnya{
+  font-size: 34px;
+  font-weight: 400;
+  color: #0f172a;
+}
