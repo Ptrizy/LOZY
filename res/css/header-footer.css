@@ -52,3 +52,60 @@ nav {
     font-weight: 700;
     transition:0.2s ease;
 }
+
+
+footer {
+    padding: 70px 100px;
+    background-color: #CEE4FD; /* Warna latar belakang sesuai kode yang diinginkan */
+  }
+  
+ 
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-information {
+    text-align: left;
+    width: 30%; /* Atur lebar agar bersampingan pada tampilan desktop */
+    margin-bottom: 20px; /* Mengatur margin antar item */
+  }
+  
+  @media (max-width: 767px) {
+    .footer-information {
+      width: 100%; /* Setel lebar ke 100% pada tampilan mobile */
+    }
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer-information {
+    text-align: left;
+    
+  }
+
+  .footer-title {
+    margin-bottom: 50px;
+    color: #0F172A;
+  }
+  
+  .h4-bold {
+    font-weight: bold;
+    color: #0F172A;
+    margin-bottom: 30;
+  }
+  
+  .h4-regular {
+    margin: 8px 0;
+    font-weight: 400;
+    color: #0F172A;
+  }
+  
+  img {
+    margin-top: 8px;
+  }
+  

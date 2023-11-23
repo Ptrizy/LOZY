@@ -6,14 +6,19 @@
     <title>Lozy</title>
     <link rel="stylesheet" href="res/css/style.css" />
     <link rel="stylesheet" href="res/css/header-footer.css" />
-    <link rel="stylesheet" href="res/css/home.css">
+    <link rel="stylesheet" href="res/css/home.css" />
     <
   </head>
   <body>
     <!-- Navbar -->
     <nav>
       <a href="./index.html" class="logo"></a>
-      <img src="res/assets/logo.png" alt="Lozy Logo" width="170" height="61.31" />
+      <img
+        src="res/assets/logo.png"
+        alt="Lozy Logo"
+        width="170"
+        height="61.31"
+      />
       <a href="./index.html" class="logonew"></a>
       <img src="res/assets/logo.png" alt="Lozy Logo" width="0" height="0" />
       <div class="toggle" onclick="toggleMenu();"></div>
@@ -21,7 +26,9 @@
       <ul class="menu">
         <li><a href="./index.html" onclick="toggleMenu()">Beranda</a></li>
         <li><a href="./pages/outlet.html" onclick="toggleMenu()">Toko</a></li>
-        <li><a href="./pages/outlet.html" onclick="toggleMenu()">Pesanan</a></li>
+        <li>
+          <a href="./pages/outlet.html" onclick="toggleMenu()">Pesanan</a>
+        </li>
         <li><a href="./pages/chat.html" onclick="toggleMenu()">Chat</a></li>
         <li><a href="./index.html" onclick="toggleMenu()">Profil</a></li>
       </ul>
@@ -29,24 +36,206 @@
 
     <!-- Beranda -->
     <section id="beranda">
-        <div class="hero">
-            <img src="res/assets/hero-img.png" alt="Hero Img">
-            <div class="hero-container">
-              <h1>Selamat datang di LOZY</h1>
-              <button class="button">Gabung</button>
-              <button class="button">Masuk</button>
-            </div>
+      <div class="hero">
+        <img src="res/assets/hero-img.png" alt="Hero Img" />
+        <div class="hero-container">
+          <h1>Selamat datang di LOZY</h1>
+          <button class="button">Gabung</button>
+          <button class="button">Masuk</button>
         </div>
+      </div>
     </section>
 
     <!-- Laundry Terdekat -->
     <section id="laundry-terdekat">
-      <div class="laundry-container">
+      <div class="teks-lainnya-container">
         <div class="teks-lt">
-        <h2>Laundry Terdekat</h2>
-        <h2 class="lainnya">Lainnya</h2>
+          <h3>Laundry Terdekat</h3>
+        </div>
+        <div class="lainnya">
+          <h3>Lainnya</h3>
+        </div>
+      </div>
+
+      <div class="laundry-container">
+        <div class="laundry-card">
+          <img
+            src="res/assets/laundry/img1.png"
+            alt="Card1"
+            class="laundry-img"
+          />
+          <div class="laundry-card-container">
+            <div class="info-container">
+              <h4>Laundry Kenanga</h4>
+              <h4 class="distance">0.5 km</h4>
+            </div>
+            <div class="star-value">
+              <h5>4.1</h5>
+              <img
+                src="res/assets/icon-star.png"
+                alt="Star Icon"
+                width="30"
+                height="28"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="laundry-card">
+          <img
+            src="res/assets/laundry/img2.png"
+            alt="Card1"
+            class="laundry-img"
+          />
+          <div class="laundry-card-container">
+            <div class="info-container">
+              <h4>Bang Jack Express..</h4>
+              <h4 class="distance">0.6 km</h4>
+            </div>
+            <div class="star-value">
+              <h5>3.9</h5>
+              <img
+                src="res/assets/icon-star.png"
+                alt="Star Icon"
+                width="30"
+                height="28"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="laundry-card">
+          <img
+            src="res/assets/laundry/img3.png"
+            alt="Card1"
+            class="laundry-img"
+          />
+          <div class="laundry-card-container">
+            <div class="info-container">
+              <h4>Laundry Room...</h4>
+              <h4 class="distance">0.9 km</h4>
+            </div>
+            <div class="star-value">
+              <h5>5.0</h5>
+              <img
+                src="res/assets/icon-star.png"
+                alt="Star Icon"
+                width="30"
+                height="28"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <section id="kupon">
+      <div class="teks-lainnya-container">
+        <div class="teks-lt">
+          <h3>Kupon Promo</h3>
+        </div>
+      </div>
+      <div class="kupon-container">
+        <div class="chevron chevron-left"></div>
+        <img src="res/assets/kupon/img1.png" alt="Kupon1" class="kupon-img" />
+        <div class="chevron chevron-right"></div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="teks-lainnya-container">
+        <div class="teks-lt">
+          <h3>Pertanyaan Yang Sering Diajukan</h3>
+        </div>
+      </div>
+      <h1>FAQs</h1>
+      <div class="accordion-wrapper">
+        <div class="accordion">
+          <input
+            type="radio"
+            name="radio-a"
+            id="check1"
+            checked
+            style="display: none"
+          />
+          <label class="accordion-label" for="check1"
+            >Bagaimana cara memesan layanan laundry dengan Lozy?</label
+          >
+          <div class="accordion-content">
+            <p>
+              Cara memesan sangat mudah. Akses website atau aplikasi Lozy di
+              perangkat Anda, daftar atau masuk, pilih jenis layanan laundry
+              yang Anda butuhkan, tentukan lokasi penjemputan dan pengantaran,
+              pilih jadwal yang sesuai, dan bayar melalui aplikasi. Tim kami
+              akan menjemput pakaian Anda sesuai jadwal yang Anda tentukan.
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <input
+            type="radio"
+            name="radio-a"
+            id="check2"
+            style="display: none"
+          />
+          <label class="accordion-label" for="check2"
+            >Kapan waktu yang biasa dilakukan pengantaran?</label
+          >
+          <div class="accordion-content">
+            <p>
+              Waktu jam operasional Laundry umumnya mulai pukul 08.00 - 17.00
+            </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <input
+            type="radio"
+            name="radio-a"
+            id="check3"
+            style="display: none"
+          />
+          <label class="accordion-label" for="check3"
+            >Bagaimana sistem pembayaran di Lozy?</label
+          >
+          <div class="accordion-content">
+            <p>
+              Kami menerima berbagai metode pembayaran, dompet digital seperti
+              GoPay, OVO, Dana, QRIS maupun Cash on Delivery. Anda dapat memilih
+              metode pembayaran yang paling nyaman bagi Anda saat melakukan
+              pemesanan.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <footer>
+      <div class="footer-title">
+        <h1>Tentang Kami</h1>
+      </div>
+      <div class="footer-content">
+        <div class="footer-information">
+          <h4 class="h4-bold">Lozy</h4>
+          <h4 class="h4-regular">Tentang Lozy</h4>
+          <h4 class="h4-regular">Kerjasama Mitra UMKM</h4>
+        </div>
+        <div class="footer-information">
+          <h4 class="h4-bold">Mitra</h4>
+          <h4 class="h4-regular">Pusat Edukasi Mitra</h4>
+          <h4 class="h4-regular">Daftar List</h4>
+          <h4 class="h4-regular">Bantuan dan Panduan</h4>
+        </div>
+      </div>
+      <div class="footer-content">
+        <div class="footer-information">
+          <h4 class="h4-bold">Media Sosial</h4>
+          <img src="res/assets/logo/fb.png" alt="fb" width="50" height="50">
+          <img src="res/assets/logo/ig.png" alt="ig" width="50" height="50">
+          <img src="res/assets/logo/twt.png" alt="twt" width="50" height="50">
+        </div>
+      </div>
+    </footer>
+    
+    
   </body>
 </html>
