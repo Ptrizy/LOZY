@@ -22,10 +22,12 @@
 
   .container{
     box-sizing: border-box;
+    display: relative;
   }
 
   section{
-    margin: 0 70px
+    margin: 0 70px;
+    box-sizing: border-box;
   }
 
   .sec-1 h1{
@@ -132,6 +134,10 @@
     border-radius: 10px;
 }
 
+.sec-4{
+  width: 100%;
+}
+
 .sec-4 label{
     display: block;
     font-weight: 600;
@@ -139,6 +145,9 @@
 }
 
 .sec-4 textarea{
-    width: 80%;
+    width: 100%;
     margin: auto;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
 }
